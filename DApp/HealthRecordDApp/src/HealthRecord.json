@@ -1,0 +1,145 @@
+{
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "patient",
+                    "type": "address"
+                },
+                {
+                    "internalType": "address",
+                    "name": "healthcareProvider",
+                    "type": "address"
+                }
+            ],
+            "name": "checkAccess",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "healthcareProvider",
+                    "type": "address"
+                }
+            ],
+            "name": "grantAccess",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "healthcareProvider",
+                    "type": "address"
+                }
+            ],
+            "name": "revokeAccess",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "patient",
+                    "type": "address"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_patientName",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_medicalHistory",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_prescriptions",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_vaccinations",
+                    "type": "string"
+                }
+            ],
+            "name": "updateHealthRecord",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "patient",
+                    "type": "address"
+                }
+            ],
+            "name": "viewHealthRecord",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "patientName",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "medicalHistory",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "prescriptions",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "vaccinations",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "lastUpdated",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "contractAddress" : "0xb236E9A08F4c690942dd060896Ae83e2A9a5e52a"
+}
