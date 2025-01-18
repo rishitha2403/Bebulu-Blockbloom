@@ -1,2 +1,2 @@
-# Bebulu-Blockbloom
-Bebulu's Blockbloom DApp
+# Blockbloom DAPP
+Final Blockbloom DApp
